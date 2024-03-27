@@ -1,0 +1,72 @@
+.contenitore { 
+    padding-left: 25%;
+    padding-right: 25%;
+    
+    
+}
+
+h1 {
+    text-align: center;
+
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+    margin: 1px;
+}
+.titolo {
+    border-top: solid 1px #000;
+    
+}
+
+#link {
+    border-left: solid 1px #e9ed08;
+    margin: 10px;
+    padding: 10px;
+    font-size: 10px;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+div img {
+   border-radius: 10px;
+}
+
+#span {
+        color: gray;
+        font-size: 10px;
+        padding-left: 25%;
+        
+    
+}
+
+
+article {
+    
+    padding: 1em;
+    margin: 1px;
+}
+.logo {
+    width: 150px;
+}
+
+
+.titolo {
+    background-color: rgb(240, 236, 223);
+    padding: 10px;
+    font-size: 10px;
+}
+
+#primoparagrafo {
+    font-size: 10px;
+
+}
+
+hr {
+    color: aqua;
+}
