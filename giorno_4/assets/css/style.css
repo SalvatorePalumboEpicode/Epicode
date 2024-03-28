@@ -1,0 +1,103 @@
+/* IMPOSTAZIONI GENERALI */
+.total {
+    width: 400px; height: 100%;
+    font-family: "Poppins", sans-serif;
+    background-image: url(../img/sfondo.png);
+    background-size: repeat;
+}
+/* HEADER */
+div.header {
+    background: linear-gradient(to bottom, #336699, #009999);
+    box-shadow: 10px 10px 20px;
+    width: 350px; height: 350px;
+    border: 1px solid #000;
+    margin: 30px;
+    text-align: center;
+    color: antiquewhite;
+}
+img{
+    width: 70%;
+    padding-top: 30px;
+}
+.span1, .span2, .span3, .span4 {
+    background-color: rgb(2, 85, 145);
+    line-height: 2;
+}
+/* MAIN */
+.corpo{
+    text-align: left;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+ .sottotitolo {
+    color: grey;
+    
+    }
+ article {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 2;
+ }
+.borderspan {
+    
+    border: 1px solid black;
+    background-color: rgb(233, 225, 225);
+    border-radius: 5px;
+}
+
+
+
+/* TABELLE */
+div.table{
+    padding: 50px;
+    border-bottom: 2px solid blue;
+    align-items: center;
+}
+table {
+    text-align: center;
+}
+thead {
+    background-color: rgb(50, 164, 245);
+    }
+
+tr:nth-child(odd) {background-color: #8ca8b1;}
+
+div.video{
+    padding: 30px;
+    align-items: center;
+}
+
+iframe {
+    width: 80%;
+    border-radius: 10px ;
+   
+}
+/* FORM */
+.divform {
+    background-color: #8ca8b1;
+    text-align: center;
+    line-height: 2;
+    margin: 20px;
+}
+
+label {
+    border-bottom: 3px dashed black;
+}
+
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer {
+    background: linear-gradient(to bottom, #336699, #009999);
+    box-shadow: 5px 5px 10px;
+    width: 200px; height: 200px;
+    border: 1px solid #000;
+    margin: 30px;
+    text-align: center;
+    color: antiquewhite;
+}
