@@ -1,0 +1,147 @@
+/* Your styles here */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+a {text-decoration: none;}
+
+
+/****** HEADER *******/
+header {
+    background-color:#202d3c ;
+    
+}
+header img {
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+header nav {
+    background-color: #354658;
+    height: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 10px;
+    margin: 0;
+    
+}
+
+
+nav ul li{
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: white;   
+}
+nav ul li a{
+    color: white;
+    font-size: 0.8em;
+}
+
+/******** BODY ********/
+body{
+    background-color: #e6e9ea;
+    margin: 0;
+}
+main{
+    height: 1070px;
+    padding: 0 20px;
+}
+
+h5 {
+    background-color: #f66500;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    font-weight: normal;
+}
+div.container {
+    
+    height: 100px;
+    background-image: url(/assets/images/bg-image.png);
+    background-size: cover;
+    
+    padding-top: 10px;
+    color: white;
+}
+
+main div{
+    height: 200px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 8px;
+    text-align: left;
+}
+span{
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+span a{
+    color: rgb(28, 109, 149);
+    font-size: 0.8em;
+    
+}
+
+.images{
+    width: 21%;
+    height: 9em;
+    float: left;
+    margin: 2%;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 2px 2px 4px rgb(106, 97, 97);
+    
+}
+
+main div .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5%;
+}
+.visore{
+    height: 300px;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.visore img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+footer .back{
+    background-color: #354658;
+}
+footer .back a{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+footer div{
+    background-color:#202d3c ;
+    text-align: center;
+    padding: 10px;
+}
+footer div img {
+    width: 100px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
