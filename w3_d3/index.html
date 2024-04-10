@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <form id="taskForm">
+                <input type="text" id="taskInput"  class="input" placeholder="Aggiungi testo">
+                <input type="submit" id="EnterTask">
+            </form>
+        </div>
+        <div class="secondodiv">
+            <ul class="taskList">
+                
+            </ul>
+        </div>
+    </main>
+    <script src="./script.js">
+
+        function addTask(event) {
+            event.preventDefault(); 
+
+            const inputField = document.getElementById('taskInput');
+            const taskText = inputField.value.trim(); 
+
+            if (taskText !== '') {
+                const taskList = document.getElementById('taskList');
+
+                
+                const newTask = document.createElement('li');
+                newTask.textContent = taskText;
+
+                taskList.appendChild(newTask);
+
+                
+                inputField.value = '';
+            }
+        }
+
+        // Aggiungi un gestore di eventi al form per l'evento di submit
+        const taskForm = document.getElementById('taskForm');
+        taskForm.addEventListener('submit', addTask);
+
+    </script>
+</body>
+</html>
