@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(162, 82, 7);
+}
+
+h1{
+    color: rgb(252, 251, 248);
+}
+
+#usersNumber{
+    box-shadow: 3px 3px 2px rgb(5, 5, 5);
+    padding: 5px;
+}
+.button{
+    background-color: rgb(16, 61, 115);
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px black;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.cell {
+    
+    box-shadow: 3px 3px 2px rgb(5, 5, 5);
+    padding: 5px;
+    display: inline-block;
+    background-color: azure;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+
+
